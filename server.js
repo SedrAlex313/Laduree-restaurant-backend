@@ -8,8 +8,7 @@ const cookieParser = require("cookie-parser");
 const userRoute = require("./routes/userRoute");
 const errorHandler = require("./middlewares/errorMiddleware");
 const availabilityRoute = require("./routes/availabilityRoute");
-const reservationRoute = require("./routes/reservationRoute");
-
+require("./data/allTables.js")
 
 const app = express()
 
@@ -27,13 +26,15 @@ app.use(
 
 //Routes
 app.use("/api/users",userRoute)
-app.use("/api/availability",availabilityRoute)
-app.use("/api/reservation",reservationRoute)
-
+app.use("/api/availability", require("./routes/availabilityRoute"));
+app.use("/api/reservation", require("./routes/reservationRoute"));
 
 app.get("/", (req, res) => {
      res.send("Home Page");
 })
+var db = mongoose.connection;
+
+
 //Error Handler
 app.use(errorHandler)
 

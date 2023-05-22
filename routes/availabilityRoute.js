@@ -1,7 +1,7 @@
-var express = require("express");
-var router = express.Router();
+const express = require("express");
+const { getDays } = require("../controllers/availabilityController");
+const router = express.Router()
 
-router.get("/", function(req,res,next) {
-    res.status(200).send("All Good");
-})
+router.post("/", getDays);
+
 module.exports = router

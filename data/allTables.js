@@ -1,14 +1,28 @@
-// Processes allTables JSON file into Mogo Table Objects
+// Processes allTables JSON file into Mongo table objects
 
-const mongoose = require("mongoose");
-const Table = require("../models/tableModel").model;
-const fs = require("fs");
+// var mongoose = require("mongoose");
+// const Table = require("../models/tableModel").model;
+// const fs = require("fs");
 
-let tableData = fs.readFileSync(__dirname + "/allTables.json");
-tableData = JSON.parse(tableData).tables;
+// let tableData = fs.readFileSync(__dirname + "/allTables.json");
+// tableData = JSON.parse(tableData).tables;
 
-let allTables = [];
+// let allTables = [];
+// tableData.forEach(table => {
+//   allTables.push(new Table(table));
+// });
 
-tableData.forEach(table => {
-    allTables.push(new Table(table));
-});
+// // Save allTables data to the database
+// (async () => {
+//   try {
+//     await Table.insertMany(allTables);
+//     console.log("Data inserted successfully");
+//   } catch (err) {
+//     console.error("Error inserting data:", err);
+//   }
+// })();
+
+
+
+ 
+

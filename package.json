@@ -97,7 +97,8 @@
   },
   "scripts": {
     "start": "node server.js",
-    "backend": "nodemon server.js"
+    "backend": "nodemon server.js",
+    "create-data":"node data/generateFakeData.js"
   },
   "keywords": [],
   "author": "",
