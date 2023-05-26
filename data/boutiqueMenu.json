@@ -1,0 +1,122 @@
+{"boutiqueItems":[
+  {
+  "name": "Passionate Romance Rose",
+  "price":10,
+  "category": "French Pastry",
+  "image": "https://pastriesbyrandolph.com/wp-content/uploads/2019/01/passion-romance-rose.jpg",
+  "description": "Yellow almond sponge cake with a dome of strawberry mousse, passion fruit creameux, a drop of strawberry jam, and wrapped in white chocolate petals"
+},
+{
+ "name": "Blueberry Dacquoise Pastry",
+  "price":12,
+  "category": "French Pastry",
+  "image": "https://pastriesbyrandolph.com/wp-content/uploads/2019/01/individual-Blueberry-dacquoise.jpg",
+  "description": "Delectable almond dacquoise filled with a bit of blueberry jam and cassis (black currant) cream and topped with fresh blueberries and white chocolate decor"
+},
+{
+ "name": "Napoleon",
+  "price":11,
+  "category": "French Pastry",
+  "image": "https://pastriesbyrandolph.com/wp-content/uploads/2018/11/individual-napoleon-cake-slice-600x600.jpg",
+  "description": "Flaky, crisp puff pastry dough layered with lightened pastry cream and topped with fondant icing"
+},
+{
+ 
+  "name": "Chocolate Noir Rose",
+  "price":10,
+  "category": "French Pastry",
+  "image": "https://pastriesbyrandolph.com/wp-content/uploads/2018/11/chocolate-rose-noir-600x600.jpg",
+  "description": "A chocolate almond cake layer topped with a dome of rich chocolate cremeux, chocolate velvet cream, sprinkled with bits of toffee and a drop of chocolate sauce surrounded by dark chocolate rose petals"
+
+},
+{
+  "name": "Cream Puff Swan",
+  "price":12,
+  "category": "French Pastry",
+  "image": "https://pastriesbyrandolph.com/wp-content/uploads/2022/03/cream-puff-swan.jpg",
+  "description": "Choux pastry filled with a bit of vanilla pastry cream, a touch of raspberry jam, sweetened whipped cream and lightly dusted with powder sugar"
+},
+{
+"name": "Milan",
+"price":16,
+"category": "French Pastry",
+"image": "https://pastriesbyrandolph.com/wp-content/uploads/2018/11/milan-pastry.jpg",
+"description": "2 layers of rich almond cake soaked with kirsch syrup, intertwined with a light mascarpone mousse topped with whipped cream and fresh fruit"
+},
+{
+  "name": "Milan",
+  "price":16,
+  "category": "French Pastry",
+  "image": "https://pastriesbyrandolph.com/wp-content/uploads/2018/11/milan-pastry.jpg",
+  "description": "2 layers of rich almond cake soaked with kirsch syrup, intertwined with a light mascarpone mousse topped with whipped cream and fresh fruit"
+  },
+  {
+    "name": "Checkerboard",
+    "price":21,
+    "category": "Tea cookies",
+    "image": "https://pastriesbyrandolph.com/wp-content/uploads/2019/04/checker-board-cookie-600x600.jpg",
+    "description": "Soft, whimsical butter cookies baked to perfection with vanilla and chocolate sable dough"
+    },
+    {
+      "name": "Chocolate Shell",
+      "price":22,
+      "category": "Tea cookies",
+      "image": "https://pastriesbyrandolph.com/wp-content/uploads/2019/01/chocolate-shell-cookie-600x600.jpg",
+      "description": "Crisp almond cookie with rich, chocolate ganache.Approximately 25 pieces in one pound. Contains nuts"
+      },
+      {
+        "name": "Marble Swirl",
+        "price":21,
+        "category": "Tea cookies",
+        "image": "https://pastriesbyrandolph.com/wp-content/uploads/2018/11/marble-sable-cookie.jpg",
+        "description": "Our marble swirl cookies do not contain nuts in their ingredients, however, there is always a chance of cross contamination so we urge our patrons with severe nut allergens to refrain from these treats."
+
+        },
+        {
+          "name": "Rainbow Tea Cookie",
+          "price":28,
+          "category": "Tea cookies",
+          "image": "https://pastriesbyrandolph.com/wp-content/uploads/2018/10/rainbow-cookie.jpg",
+          "description": "3 layers of sweet almond cake intertwined with raspberry jam and coated in rich chocolate"
+      },
+      {
+        "name": "Sable Chocolate",
+        "price":28,
+        "category": "Tea cookies",
+        "image": "https://pastriesbyrandolph.com/wp-content/uploads/2019/01/chocolate-sable-cookie.jpg",
+        "description": "These cookies do not contain nuts in their ingredients, however, there is always a chance of cross contamination so we urge our patrons with severe nut allergens to refrain from these treats"
+    },
+    {
+      "name": "Cherry Danish",
+      "price":7,
+      "category": "Breakfast",
+      "image": "https://pastriesbyrandolph.com/wp-content/uploads/2019/03/cherry-danish.jpg",
+      "description": "Multilayered, laminated sweet puff pastry in the Viennoiserie tradition with tart cherry filling and glazed in fondan"
+  },  {
+    "name": "Custard Danish",
+    "price":8,
+    "category": "Breakfast",
+    "image": "https://pastriesbyrandolph.com/wp-content/uploads/2019/03/custard-danish.jpg",
+    "description": "Multilayered, laminated sweet puff pastry in the Viennoiserie tradition with two dollops of custard and glazed in fondant."
+},  {
+  "name": "Cinnamon Roll",
+  "price":8,
+  "category": "Breakfast",
+  "image": "https://pastriesbyrandolph.com/wp-content/uploads/2019/03/raspberry-danish.jpg",
+  "description": "Multilayered, laminated sweet puff pastry in the Viennoiserie tradition filled with raspberry deliciousness and drizzled with a light, fondant glaze"
+},  {
+  "name": "Almond Croissant" ,
+  "price":9,
+  "category": "Breakfast",
+  "image": "https://pastriesbyrandolph.com/wp-content/uploads/2019/03/almond-croissant.jpg",
+  "description": "Swiss style buttery, crescent-shaped pastry that’s light, flaky, and delicately sweet filled with almond paste, topped with sliced almonds and glazed in fondant"
+}, 
+ {
+  "name": "Apple Strudel ",
+  "price":8,
+  "category": "Breakfast",
+  "image": "https://pastriesbyrandolph.com/wp-content/uploads/2019/01/apple-strudel-individual.jpg",
+  "description": "Puff pastry dough filled with spiced apples, a moist yellow cake and creamy vanilla custard."
+}
+  ]
+}

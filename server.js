@@ -8,7 +8,8 @@ const cookieParser = require("cookie-parser");
 const userRoute = require("./routes/userRoute");
 const errorHandler = require("./middlewares/errorMiddleware");
 require("./data/allTables.js")
-
+require("./data/boutiquMenu")
+const BoutiqueRoute = require("./routes/boutiqueItemsRoute")
 const app = express()
 
 //Middlewares
@@ -27,6 +28,7 @@ app.use(
 app.use("/api/users",userRoute)
 app.use("/api/availability", require("./routes/availabilityRoute"));
 app.use("/api/reservation", require("./routes/reservationRoute"));
+app.use("/api/boutique",BoutiqueRoute)
 
 app.get("/", (req, res) => {
      res.send("Home Page");
