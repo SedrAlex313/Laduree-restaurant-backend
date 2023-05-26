@@ -7,7 +7,6 @@ const bodyParser = require("body-parser")
 const cookieParser = require("cookie-parser");
 const userRoute = require("./routes/userRoute");
 const errorHandler = require("./middlewares/errorMiddleware");
-const availabilityRoute = require("./routes/availabilityRoute");
 require("./data/allTables.js")
 
 const app = express()
@@ -39,6 +38,7 @@ var db = mongoose.connection;
 app.use(errorHandler)
 
 const PORT = process.env.PORT || 5000;
+
 
 
 mongoose

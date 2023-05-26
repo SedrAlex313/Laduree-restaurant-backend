@@ -1,99 +1,94 @@
 {"tables":[
     {
         "name":"Table 1",
-        "capacity":6,
+        "capacity":7,
         "isAvailable":true,
-        "location":"Bar"
+        "location":"Inside"
     },
     {
         "name":"Table 2",
-        "capacity":5,
-        "isAvailable":true
-        ,"location":"Bar"
-    },
-    {
-        "name":"Table 3",
-    "capacity":3,
-    "isAvailable":true,
-    "location":"Inside"
-    },
-    {
-        "name":"Table 4",
         "capacity":3,
         "isAvailable":true,
         "location":"Terrace"
     },
     {
+        "name":"Table 3",
+        "capacity":7,
+        "isAvailable":true,
+        "location":"Terrace"
+    },
+    {
+        "name":"Table 4",
+        "capacity":2,
+        "isAvailable":true,
+        "location":"Inside"
+    },
+    {
         "name":"Table 5",
-        "capacity":4,
+        "capacity":3,
         "isAvailable":true,
         "location":"Bar"
     },
     {
         "name":"Table 6",
-        "capacity":7,
+        "capacity":5,
         "isAvailable":true,
-        "location":"Bar"}
-        ,
-        {
+        "location":"Inside"
+    },
+    {
         "name":"Table 7",
-        "capacity":4,
+        "capacity":3,
+        "isAvailable":true,
+        "location":"Inside"
+    },
+    {
+        "name":"Table 8",
+        "capacity":2,
         "isAvailable":true,
         "location":"Bar"
     },
-        {
-            "name":"Table 8",
-            "capacity":7,
-            "isAvailable":true,
-            "location":"Inside"
-        },
-        {
-            "name":"Table 9",
-            "capacity":4,
-            "isAvailable":true,
-            "location":"Inside"
-        },
-        {
-            "name":"Table 10",
-            "capacity":4,
-            "isAvailable":true,
-            "location":"Bar"
-        },
-        {
-            "name":"Table 11",
-            "capacity":4,
-            "isAvailable":true,
-            "location":"Bar"
-        },
-        {
-            "name":"Table 12",
-            "capacity":7,
-            "isAvailable":true,
-            "location":"Bar"
-        },
-        {
-            "name":"Table 13",
-            "capacity":4,
-            "isAvailable":true,
-            "location":"Inside"
-        },
-        {
-            "name":"Table 14",
-            "capacity":2,
-            "isAvailable":true,
-            "location":"Terrace"
-        },
-        {
-            "name":"Table 15",
-            "capacity":7,
-            "isAvailable":true,
-            "location":"Terrace"
-        },
-{
-    "name":"Table 16",
-    "capacity":4,
-    "isAvailable":true,
-    "location":"Inside"
+    {
+        "name":"Table 9",
+        "capacity":6,
+        "isAvailable":true,
+        "location":"Bar"}
+        ,
+    {
+        "name":"Table 10",
+        "capacity":7,
+        "isAvailable":true,
+        "location":"Terrace"
+    },
+    {
+        "name":"Table 11",
+        "capacity":3,
+        "isAvailable":true,
+        "location":"Bar"
+    },
+    {
+        "name":"Table 12",
+        "capacity":3,
+        "isAvailable":true,
+        "location":"Bar"
+    },
+    {
+        "name":"Table 13",
+        "capacity":3,
+        "isAvailable":true,
+        "location":"Inside"
+    },
+        
+    {
+        "name":"Table 14",
+        "capacity":3,
+        "isAvailable":true,
+        "location":"Inside"
+    },
+    {
+        "name":"Table 15",
+        "capacity":7,
+        "isAvailable":true,
+        "location":"Terrace"
     }
     ]
 }

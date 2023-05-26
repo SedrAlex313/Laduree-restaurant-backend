@@ -1,4 +1,4 @@
-// Processes allTables JSON file into Mongo table objects
+//  // Processes allTables JSON file into Mongo table objects
 
 // var mongoose = require("mongoose");
 // const Table = require("../models/tableModel").model;
@@ -6,6 +6,7 @@
 
 // let tableData = fs.readFileSync(__dirname + "/allTables.json");
 // tableData = JSON.parse(tableData).tables;
+// console.log("Parsed tableData:", tableData); // Debug: Check the content of tableData
 
 // let allTables = [];
 // tableData.forEach(table => {
