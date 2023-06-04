@@ -29,6 +29,7 @@
     "etag": "^1.8.1",
     "express": "^4.18.2",
     "express-async-handler": "^1.2.0",
+    "express-flash": "^0.0.2",
     "finalhandler": "^1.2.0",
     "forwarded": "^0.2.0",
     "fresh": "^0.5.2",
@@ -82,12 +83,14 @@
     "socks": "^2.7.1",
     "sparse-bitfield": "^3.0.3",
     "statuses": "^2.0.1",
+    "stripe": "^12.7.0",
     "toidentifier": "^1.0.1",
     "tr46": "^3.0.0",
     "type-is": "^1.6.18",
     "ua-parser-js": "^1.0.35",
     "unpipe": "^1.0.0",
     "utils-merge": "^1.0.1",
+    "uuid": "^9.0.0",
     "vary": "^1.1.2",
     "webidl-conversions": "^7.0.0",
     "whatwg-url": "^11.0.0"
@@ -98,7 +101,8 @@
   "scripts": {
     "start": "node server.js",
     "backend": "nodemon server.js",
-    "create-data":"node data/generateFakeData.js"
+    "create-data": "node data/generateFakeData.js",
+    "watch": "npm run development -- --watch"
   },
   "keywords": [],
   "author": "",

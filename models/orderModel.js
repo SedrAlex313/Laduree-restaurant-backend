@@ -1,80 +1,39 @@
 const mongoose = require("mongoose");
 
-const orderSchema = mongoose.Schema({
-    customerId: {
-                type: mongoose.Schema.Types.ObjectId,
-                ref: 'User',
-                required: true
-                },
-    orderItems: 
-    { 
-        type: Object, 
-        required: true 
+const orderSchema = mongoose.Schema(
+  {
+    name: {
+      type: String,
+      required: [true, "order name required"],
     },
-    orderAmount: 
-    { 
-        type: Object, 
-        required: true 
-    }, 
-    phone: 
-    { 
-        type: String, 
-        required: true
+    email: {
+      type: String,
+      required: [true, "email is required"],
     },
-    address: 
-    { 
-        type: String, 
-        required: true
+    userid: {
+      type: String,
+      require
     },
-    paymentType: 
-    {
-         type: String, 
-         default: 'COD'
-        },
-    paymentStatus: 
-    { 
-        type: Boolean, 
-        default: false 
+    orderItems: [],
+    shippingAddress: {
+      type:Object
     },
-    orderStatus: 
-    { 
-        type: String,
-        default: 'order_placed'
+    orderAmount: {
+      type: Number,
+      required: true,
     },
-}, 
-{ 
-    timestamps: true 
-})
+    isDeliverd: {
+      type: Boolean,
+      required: true,
+      default: false,
+    },
+    transectionId: {
+      type: String,
+      required: true,
+    },
+  },
+  { timestamps: true }
+);
 
-module.exports = mongoose.model('orders', orderSchema);
+module.exports = mongoose.model("Order", orderSchema);
 
-const newOrder = new Order({
-    customerId: '6431bc0ae5568b72395a74ce',
-    orderItems: {  
-        item1: {
-        name: 'Passionate Romance Rose',
-        price: 10.99,
-        quantity: 2
-      },
-      item2: {
-        name: 'Blueberry Dacquoise Pastry',
-        price: 10.00,
-        quantity: 3
-      },},
-    orderAmount: { subtotal: 20.99,},
-    phone: '1234567890',
-    address: '123 Main St',
-    paymentType: 'COD',
-    paymentStatus: false,
-    orderStatus: 'order_placed'
-  });
-  
-  newOrder.save()
-    .then(savedOrder => {
-      console.log('Order saved successfully:', savedOrder);
-      // Handle any additional logic or send response to the client
-    })
-    .catch(error => {
-      console.error('Error saving order:', error);
-      // Handle the error or send an error response to the client
-    });
