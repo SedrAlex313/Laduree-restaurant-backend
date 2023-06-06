@@ -27,7 +27,7 @@ const orderSchema = mongoose.Schema(
       required: true,
       default: false,
     },
-    transectionId: {
+    transactionId: {
       type: String,
       required: true,
     },

@@ -1,0 +1,128 @@
+{
+    "meals":[
+     {         
+            "name": "Ratatouille",
+            "price":30,
+            "category": "Les plats principaux",
+            "image": "https://cms-b-assets.familysearch.org/dims4/default/8ac5526/2147483647/strip/true/crop/750x500+0+0/resize/750x500!/format/webp/quality/90/?url=https%3A%2F%2Ffamilysearch-brightspot.s3.amazonaws.com%2Fe4%2F66%2F27d7f3573b42bbb05571327e22fc%2Fratatouille.jpg"
+    },
+    {         
+            "name": "Steak au Poivre",
+            "price":30,
+            "category": "Les plats principaux",
+            "image": "https://www.foodandwine.com/thmb/tAhV0awIwqCpT3sQ8VVqCGVzqkE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/steak-au-poivre-red-wine-pan-sauce-hero-01-FT-RECIPE1222-c9e1da15f33f4076986b6ce37ae5bbb0.jpg"
+    },
+    {         
+            "name": "Poulet à la lyonnaise sauce vinaigrée",
+            "price":30,
+            "category": "Les plats principaux",
+            "image": "https://www.foodandwine.com/thmb/Q2j4ND_NjSlnjiXRJ4WBR4hyynA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/julia-child-favorite-roast-chicken-XL-RECIPE0313-e3f972b3283a4f9080378a51345c032b.jpg"
+    },
+    {         
+            "name": "Strip Steak Frites au Beurre Béarnaise",
+            "price":30,
+            "category": "Les plats principaux",
+            "image": "https://www.foodandwine.com/thmb/xcdmrSehsyJpDElJqDVnBeJ94Dg=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/201504-xl-strip-steak-frites-with-bearnaise-butter-2000-3ce6e81685064bc792ec17a050193ab0.jpg"
+    },
+    {         
+            "name": "Classic Duck Confit",
+            "price":30,
+            "category": "Les plats principaux",
+            "image": "https://www.foodandwine.com/thmb/IeTxV8GWhVxO6tkGfwNPmgTZyrQ=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Duck-Confit-FT-RECIPE1022-2000-4f0648f877c0475c84e030a8da8200a9.jpg"
+    },
+    {         
+            "name": "Filets de porc farcis au bacon et sauce pomme-riesling",
+            "price":30,
+            "category": "Les plats principaux",
+            "image": "https://www.foodandwine.com/thmb/SijuMFW_CtSUou1fojzsXvLytx0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/HD-fw200610_stuffedPork-9358ee688cd947d09270f8e472b7a920.jpg"
+    },
+    {         
+            "name": "Quenelles de Brochet",
+            "price":30,
+            "category": "Les plats principaux",
+            "image": "https://www.saveur.com/uploads/2019/02/08/IQRV72XFA42XG755ELH72ETUKQ-1024x768.jpg?auto=webp&optimize=high&quality=70&width=1920"
+    },
+    {         
+            "name": "Steak Diane",
+            "price":30,
+            "category": "Les plats principaux",
+            "image": "https://www.saveur.com/uploads/2019/02/08/7SXVPPU2VGH3IBR7DUSZOLAUWA.jpg?auto=webp&optimize=high&quality=70&width=1920"
+    },
+    {         
+            "name": "Duck à l'Orange",
+            "price":30,
+            "category": "Les plats principaux",
+            "image": "https://www.foodandwine.com/thmb/l6evMuBx70LVaY-Spx7Hf2tS83I=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/HD-201110-r-duck-a-l-orange-3b41e39709044bb29288f22093c14fdd.jpg"
+    },
+    {         
+            "name": "Tarte Flambée",
+            "price":20,
+            "category": "Entrées",
+            "image": "https://www.foodandwine.com/thmb/l6evMuBx70LVaY-Spx7Hf2tS83I=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/HD-201110-r-duck-a-l-orange-3b41e39709044bb29288f22093c14fdd.jpg"
+   },
+   {         
+            "name": "Cervelle de Canut",
+            "price":20,
+            "category": "Entrées",
+            "image": "https://explorepartsunknown.com/wp-content/uploads/2018/12/GettyImages-656288019-e1544120847151.jpg?quality=95&strip=color"
+  },
+  {         
+            "name": "Quiche Lorraine",
+            "price":20,
+            "category": "Entrées",
+            "image": "https://static01.nyt.com/images/2018/01/16/dining/16COOKING-QUICHELORRAINE2/16COOKING-QUICHELORRAINE2-articleLarge.jpg?w=1280&q=75"
+  },
+  {         
+            "name": " Lyonnaise salad",
+            "price":20,
+            "category": "Entrées",
+            "image": "https://www.oliviascuisine.com/wp-content/uploads/2016/07/poached-egg-salad-683x1024.jpg"
+  },
+  {         
+            "name": "Brioche",
+            "price":20,
+            "category": "Entrées",
+            "image": "https://www.saveur.com/uploads/2019/04/18/EIAXE4GPQ5LYQ7TGFGVMZKXXCI-1024x767.jpg?auto=webp&optimize=high&quality=70&width=1920"
+  },
+  {         
+            "name": "Duck Pâté en Croûte",
+            "price":20,
+            "category": "Entrées",
+            "image": "https://www.saveur.com/uploads/2019/02/08/OOI633ULDYWIHZQY2TC32KRHWA-1024x768.jpg?auto=webp&optimize=high&quality=70&width=1920"
+   },
+   {         
+            "name": "Soupe à l’oignon:",
+            "price":20,
+            "category": "Entrées",
+            "image": "http://www.strawberryplum.com/wp-content/uploads/2013/01/DSC06964-682x1024.jpg"
+   },
+   {         
+            "name": "Croque Monsieur",
+            "price":20,
+            "category": "Entrées",
+            "image": "https://www.foodandwine.com/thmb/l6evMuBx70LVaY-Spx7Hf2tS83I=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/HD-201110-r-duck-a-l-orange-3b41e39709044bb29288f22093c14fdd.jpg"
+   },
+   {         
+            "name": "Soupe au pistou",
+            "price":20,
+            "category": "Entrées",
+            "image": "https://b3067249.smushcdn.com/3067249/wp-content/uploads/2018/11/Soupe-au-pistou-848x477.jpg?lossy=0&strip=1&webp=1"
+  },
+  {         
+            "name": "Terrine de porc",
+            "price":20,
+            "category": "Entrées",
+            "image": "https://medias.jecuisinedugibier.fr/2019/11/terrine-de-sanglier-chichichoc-jecuisinedugibier.jpg"
+   },
+   {         
+            "name": "Clafoutis",
+            "price":25,
+            "category": "Dessert",
+            "image": "https://www.saveur.com/uploads/2019/02/08/YVLDU2VUEMGTGKG25XZZYXALAM-1024x768.jpg?auto=webp&optimize=high&quality=70&width=1920"
+   },
+   {         
+            "name": "Clafoutis",
+            "price":25,
+            "category": "Dessert",
+            "image": "https://www.saveur.com/uploads/2019/02/08/RWS6UMBIOEGOWUBGQTQ5NQLAUA-1024x768.jpg?auto=webp&optimize=high&quality=70&width=1920"
+}]}

@@ -1,8 +1,9 @@
 const express = require("express");
-const { placeOrders } = require("../controllers/customers/orderController");
+const { placeOrders, getUserOrders } = require("../controllers/customers/orderController");
 const { protect } = require("../middlewares/authMiddleware");
 const router = express.Router()
 
-router.post("/placeorder", placeOrders);
+router.post("/placeorder",protect, placeOrders);
+router.get("/getuserorders",protect,getUserOrders)
 
 module.exports = router

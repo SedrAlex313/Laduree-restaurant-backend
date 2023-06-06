@@ -9,9 +9,11 @@ const userRoute = require("./routes/userRoute");
 const errorHandler = require("./middlewares/errorMiddleware");
 require("./data/allTables.js")
 require("./data/boutiquMenu")
+require("./data/menuDishes")
 const boutiqueRoute = require("./routes/boutiqueItemsRoute");
 const orderRoute = require("./routes/orderRoute")
-const cartRoute = require("./routes/cartRoute")
+const mealsRoute = require("./routes/mealsRoute")
+const blogRoute = require("./routes/blogRoute")
 
 const app = express()
 
@@ -32,8 +34,9 @@ app.use("/api/users",userRoute)
 app.use("/api/availability", require("./routes/availabilityRoute"));
 app.use("/api/reservation", require("./routes/reservationRoute"));
 app.use("/api/boutique",boutiqueRoute)
+app.use("/api/posts",blogRoute)
 app.use("/api/boutique/orders",orderRoute)
-app.use("/api/boutique/cart",cartRoute)
+app.use("/api/menu",mealsRoute)
 
 
 app.get("/", (req, res) => {
