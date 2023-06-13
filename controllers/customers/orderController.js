@@ -42,8 +42,8 @@ const placeOrders = asyncHandler(async (req, res) => {
             {
                 const neworder = new Order({
                     // name: currentUser.name,
-                    emai: currentUser.email,
-                    userid: currentUser._id,
+                    // emai: currentUser.email,
+                    // userid: currentUser._id,
                     orderItems : cartItems,
                     orderAmount: subtotal,
                     shippingAddress : {
