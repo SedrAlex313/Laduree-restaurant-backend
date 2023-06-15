@@ -20,18 +20,17 @@ exports.updateOne = (Model) => async (req, res, next) => {
 
   res.status(200).json({
     status: "success",
-    data: { data: doc },
+    data: doc,
   });
 };
 
-exports.createOne = (Model) =>
-async (req, res, next) => {
+exports.createOne = (Model) => async (req, res, next) => {
   const doc = await Model.create(req.body);
   res.status(201).json({
     status: "success",
     data: { data: doc },
   });
-}
+};
 
 exports.getOne = (Model, popOptions) => async (req, res, next) => {
   let query = Model.findById(req.params.id);
@@ -48,11 +47,10 @@ exports.getOne = (Model, popOptions) => async (req, res, next) => {
   });
 };
 
-
 exports.getAll = (Model) => async (req, res, next) => {
   // Allow nested routes  =>GET
-  let filter = {};
 
+  let filter = {};
   const features = new APIFeatures(Model.find(filter), req.query)
     .filter()
     .sort()
@@ -65,8 +63,6 @@ exports.getAll = (Model) => async (req, res, next) => {
   res.status(200).json({
     status: "success",
     results: docs.length,
-    data: {
-      data: docs,
-    },
+    data: docs,
   });
 };

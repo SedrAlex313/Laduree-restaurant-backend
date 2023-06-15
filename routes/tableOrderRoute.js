@@ -9,8 +9,8 @@ router
 
 router
   .route("/:id")
-  .patch(tableOrderCtlr.updateTableOrder)
+  .patch(tableOrderCtlr.addTimestampsToRequest, tableOrderCtlr.updateTableOrder)
   .delete(tableOrderCtlr.deleteTableOrder)
   .get(tableOrderCtlr.getTableOrder);
-  
+
 module.exports = router;
